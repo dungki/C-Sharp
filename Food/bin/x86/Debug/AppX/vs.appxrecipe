@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>C7CEFA509FF7D4C19A765BA15F18D4E34236798C89CC50F35A7DC2477DA5CB09</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>C35C81B189B59940AA6586E06E1244BFEB41DEABBDA882B00C1F30B2AC913448</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c0c504f9-dcbd-49a9-be7d-10a81a016ee0_1.0.0.0_x86__kwmcxzszfer2y</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c0c504f9-dcbd-49a9-be7d-10a81a016ee0_kwmcxzszfer2y!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c0c504f9-dcbd-49a9-be7d-10a81a016ee0</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-16T09:40:27.128</Modified>
+      <Modified>2020-09-23T09:29:13.421</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\T1907ACsharp.exe">
       <PackagePath>entrypoint\T1907ACsharp.exe</PackagePath>
-      <Modified>2020-09-16T09:40:26.391</Modified>
+      <Modified>2020-09-23T09:28:35.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -46,9 +46,21 @@
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T12:16:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\sqlitepcl\3.8.7.2\lib\netcore451\SQLitePCL.dll">
+      <PackagePath>SQLitePCL.dll</PackagePath>
+      <Modified>2014-12-09T04:04:52.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.33.0\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2020-09-21T07:29:39.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\sqlitepcl\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
+      <PackagePath>SQLitePCL.Ext.dll</PackagePath>
+      <Modified>2014-12-09T04:04:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\Assets\food.jpg">
       <PackagePath>Assets\food.jpg</PackagePath>
@@ -98,19 +110,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\T1907ACsharp.xr.xml">
       <PackagePath>T1907ACsharp.xr.xml</PackagePath>
-      <Modified>2020-09-16T09:40:26.185</Modified>
+      <Modified>2020-09-23T09:28:35.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-16T09:40:26.203</Modified>
+      <Modified>2020-09-23T09:29:12.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Layout\RightLayout.xbf">
       <PackagePath>Layout\RightLayout.xbf</PackagePath>
-      <Modified>2020-09-16T09:40:26.203</Modified>
+      <Modified>2020-09-23T09:29:12.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-16T09:40:26.204</Modified>
+      <Modified>2020-09-23T09:29:12.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Pages\Carts.xbf">
+      <PackagePath>Pages\Carts.xbf</PackagePath>
+      <Modified>2020-09-23T09:29:12.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Pages\Category.xbf">
+      <PackagePath>Pages\Category.xbf</PackagePath>
+      <Modified>2020-09-23T09:29:12.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Pages\Favourite.xbf">
+      <PackagePath>Pages\Favourite.xbf</PackagePath>
+      <Modified>2020-09-23T09:29:12.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
+      <Modified>2020-09-23T09:29:12.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Pages\ProductDetail.xbf">
+      <PackagePath>Pages\ProductDetail.xbf</PackagePath>
+      <Modified>2020-09-23T09:29:12.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -118,11 +150,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-16T09:40:26.631</Modified>
+      <Modified>2020-09-23T09:23:58.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Core\T1907ACsharp.exe">
       <PackagePath>T1907ACsharp.exe</PackagePath>
-      <Modified>2020-09-16T09:40:27.115</Modified>
+      <Modified>2020-09-23T09:29:13.416</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,6 @@
 WinMetadata\Windows.winmd
+SQLitePCL.Ext.dll
+SQLitePCL.Ext.pri
 Assets\food.jpg
 Assets\LockScreenLogo.scale-200.png
 Assets\logo.png
@@ -11,5 +13,10 @@ Assets\Wide310x150Logo.scale-200.png
 App.xbf
 Layout\RightLayout.xbf
 MainPage.xbf
+Pages\Carts.xbf
+Pages\Category.xbf
+Pages\Favourite.xbf
+Pages\Home.xbf
+Pages\ProductDetail.xbf
 T1907ACsharp.xr.xml
 Properties\Default.rd.xml

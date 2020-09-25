@@ -34,8 +34,17 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\sqlitepcl\3.8.7.2\lib\netcore451\SQLitePCL.dll">
+      <PackagePath>SQLitePCL.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.33.0\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\admin\.nuget\packages\sqlitepcl\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
+      <PackagePath>SQLitePCL.Ext.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\Assets\food.jpg">
       <PackagePath>Assets\food.jpg</PackagePath>
@@ -84,6 +93,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Pages\Carts.xbf">
+      <PackagePath>Pages\Carts.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Pages\Category.xbf">
+      <PackagePath>Pages\Category.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Pages\Favourite.xbf">
+      <PackagePath>Pages\Favourite.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\C#\T1907ACsharp\T1907ACsharp\bin\x86\Debug\Pages\ProductDetail.xbf">
+      <PackagePath>Pages\ProductDetail.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
